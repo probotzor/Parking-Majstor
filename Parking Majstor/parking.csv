@@ -1,0 +1,17 @@
+grad,zona,opis,broj,boja
+Beograd,Zona I,Max 60 minuta; od 7h do 21h; subotom od 7h do 14h (56 din/sat),9111,D32F1F
+Beograd,Zona II,Max 120 minuta; od 7h do 21h; subotom od 7h do 14h (48 din/sat),9112,FEFF56
+Beograd,Zona III,Max 180 minuta; od 7h do 21h; subotom od 7h do 14h (41 din/sat),9113,72F44B
+Beograd,Bez ograničenja,Naplata od 8h do 17h (Zemun do 21h); subotom od 8h do 14h (31 din/sat),9119,0701F3
+Beograd,Bez ograničenja - dnevna karta,Dnevna karta; važi od 8h do 17h (Zemun do 21h); subotom od 8h do 14h (285 din/dan),9118,0701F3
+Beograd,Blok 42 i Vidin kapija,Blok 42 i Vidin kapija; 60min; od 00h do 24h (50 din/sat),8115,D0D3D3
+Beograd,Blok 42 i Vidin kapija - višesatna karta,Blok 42 i Vidin kapija - višesatno parkiranje - važi od trenutka slanja,8116,D0D3D3
+Beograd,Sava promenada,Sava promenada; 60min; od 00h do 24h (70 din/sat),8117,D0D3D3
+Beograd,Sava promenada - višesatna karta,Sava promenada - višesatno parkiranje - važi od trenutka slanja,8110,D0D3D3
+Novi Sad,Crvena Zona,Max 120 minuta; od 7h do 21h; subotom od 7h do 14h (55 din/sat),8211,D32F1F
+Novi Sad,Plava Zona,Bez ograničenja; od 7h do 21h; subotom od 7h do 14h (45 din/sat),8212,0701F3
+Novi Sad,Bela Zona,Bez ograničenja; od 7h do 21h; subotom od 7h do 14h (30 din/sat),8218,D0D3D3
+Novi Sad,Dnevna Karta,Važi za belu zonu i neke delove plave zone gde je to posebno naznačeno,8215,D0D3D3
+Novi Sad,Štrand,Bez ograničenja; dnevna karta (40 din/dan),8213,D0D3D3
+Novi Sad,Najlon,Bez ograničenja; dnevna karta (79 din/dan),8214,D0D3D3
+Novi Sad,Sajam,Bez ograničenja; dnevna karta; naplata za vreme trajanja sajamskih...,8288,D0D3D3

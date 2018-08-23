@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391BE4D51F5703BD00096C28 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391BE4D41F5703BD00096C28 /* Archive.swift */; };
+		39471BA21F5F012600784782 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39471BA11F5F012600784782 /* MaterialView.swift */; };
+		39C87F721F55AED200B5D796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C87F711F55AED200B5D796 /* AppDelegate.swift */; };
+		39C87F741F55AED200B5D796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C87F731F55AED200B5D796 /* ViewController.swift */; };
+		39C87F771F55AED200B5D796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C87F751F55AED200B5D796 /* Main.storyboard */; };
+		39C87F7A1F55AED200B5D796 /* Parking_Majstor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39C87F781F55AED200B5D796 /* Parking_Majstor.xcdatamodeld */; };
+		39C87F7C1F55AED200B5D796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C87F7B1F55AED200B5D796 /* Assets.xcassets */; };
+		39C87F7F1F55AED200B5D796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C87F7D1F55AED200B5D796 /* LaunchScreen.storyboard */; };
+		39C87F8A1F55AED200B5D796 /* Parking_MajstorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C87F891F55AED200B5D796 /* Parking_MajstorTests.swift */; };
+		39C87F951F55AED200B5D796 /* Parking_MajstorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C87F941F55AED200B5D796 /* Parking_MajstorUITests.swift */; };
+		39C87FA61F55B40400B5D796 /* Lokacije.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C87FA51F55B40400B5D796 /* Lokacije.swift */; };
+		39C87FA81F55B42000B5D796 /* ParkingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C87FA71F55B42000B5D796 /* ParkingCell.swift */; };
+		39C87FAB1F55B44900B5D796 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C87FAA1F55B44900B5D796 /* csv.swift */; };
+		39C87FAE1F55B57E00B5D796 /* parking.csv in Resources */ = {isa = PBXBuildFile; fileRef = 39C87FAD1F55B57E00B5D796 /* parking.csv */; };
+		39C87FB01F55F18600B5D796 /* DodavanjeTablicaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C87FAF1F55F18600B5D796 /* DodavanjeTablicaViewController.swift */; };
+		39C87FB21F55F19400B5D796 /* OdabirGradaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C87FB11F55F19400B5D796 /* OdabirGradaViewController.swift */; };
+		39C87FB41F55F1A200B5D796 /* OdabirTabliceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C87FB31F55F1A200B5D796 /* OdabirTabliceViewController.swift */; };
+		39C87FB61F55FB4200B5D796 /* Tablica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C87FB51F55FB4200B5D796 /* Tablica.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39C87F861F55AED200B5D796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C87F661F55AED200B5D796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C87F6D1F55AED200B5D796;
+			remoteInfo = "Parking Majstor";
+		};
+		39C87F911F55AED200B5D796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C87F661F55AED200B5D796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C87F6D1F55AED200B5D796;
+			remoteInfo = "Parking Majstor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		391BE4D41F5703BD00096C28 /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
+		39471BA11F5F012600784782 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		39C87F6E1F55AED200B5D796 /* Parking Majstor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parking Majstor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C87F711F55AED200B5D796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39C87F731F55AED200B5D796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39C87F761F55AED200B5D796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39C87F791F55AED200B5D796 /* Parking_Majstor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Parking_Majstor.xcdatamodel; sourceTree = "<group>"; };
+		39C87F7B1F55AED200B5D796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39C87F7E1F55AED200B5D796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39C87F801F55AED200B5D796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C87F851F55AED200B5D796 /* Parking MajstorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parking MajstorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C87F891F55AED200B5D796 /* Parking_MajstorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking_MajstorTests.swift; sourceTree = "<group>"; };
+		39C87F8B1F55AED200B5D796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C87F901F55AED200B5D796 /* Parking MajstorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parking MajstorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C87F941F55AED200B5D796 /* Parking_MajstorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking_MajstorUITests.swift; sourceTree = "<group>"; };
+		39C87F961F55AED200B5D796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C87FA51F55B40400B5D796 /* Lokacije.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lokacije.swift; sourceTree = "<group>"; };
+		39C87FA71F55B42000B5D796 /* ParkingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingCell.swift; sourceTree = "<group>"; };
+		39C87FAA1F55B44900B5D796 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		39C87FAD1F55B57E00B5D796 /* parking.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = parking.csv; sourceTree = "<group>"; };
+		39C87FAF1F55F18600B5D796 /* DodavanjeTablicaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DodavanjeTablicaViewController.swift; sourceTree = "<group>"; };
+		39C87FB11F55F19400B5D796 /* OdabirGradaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OdabirGradaViewController.swift; sourceTree = "<group>"; };
+		39C87FB31F55F1A200B5D796 /* OdabirTabliceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OdabirTabliceViewController.swift; sourceTree = "<group>"; };
+		39C87FB51F55FB4200B5D796 /* Tablica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tablica.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C87F6B1F55AED200B5D796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C87F821F55AED200B5D796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C87F8D1F55AED200B5D796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39C87F651F55AED200B5D796 = {
+			isa = PBXGroup;
+			children = (
+				39C87F701F55AED200B5D796 /* Parking Majstor */,
+				39C87F881F55AED200B5D796 /* Parking MajstorTests */,
+				39C87F931F55AED200B5D796 /* Parking MajstorUITests */,
+				39C87F6F1F55AED200B5D796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39C87F6F1F55AED200B5D796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C87F6E1F55AED200B5D796 /* Parking Majstor.app */,
+				39C87F851F55AED200B5D796 /* Parking MajstorTests.xctest */,
+				39C87F901F55AED200B5D796 /* Parking MajstorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C87F701F55AED200B5D796 /* Parking Majstor */ = {
+			isa = PBXGroup;
+			children = (
+				39C87FAC1F55B57100B5D796 /* Resources */,
+				39C87FA91F55B43C00B5D796 /* Utils */,
+				39C87FA41F55B3EF00B5D796 /* Controller */,
+				39C87FA31F55B3E600B5D796 /* View */,
+				39C87FA21F55B3E000B5D796 /* Model */,
+				39C87F711F55AED200B5D796 /* AppDelegate.swift */,
+				39C87F751F55AED200B5D796 /* Main.storyboard */,
+				39C87F7B1F55AED200B5D796 /* Assets.xcassets */,
+				39C87F7D1F55AED200B5D796 /* LaunchScreen.storyboard */,
+				39C87F801F55AED200B5D796 /* Info.plist */,
+				39C87F781F55AED200B5D796 /* Parking_Majstor.xcdatamodeld */,
+			);
+			path = "Parking Majstor";
+			sourceTree = "<group>";
+		};
+		39C87F881F55AED200B5D796 /* Parking MajstorTests */ = {
+			isa = PBXGroup;
+			children = (
+				39C87F891F55AED200B5D796 /* Parking_MajstorTests.swift */,
+				39C87F8B1F55AED200B5D796 /* Info.plist */,
+			);
+			path = "Parking MajstorTests";
+			sourceTree = "<group>";
+		};
+		39C87F931F55AED200B5D796 /* Parking MajstorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39C87F941F55AED200B5D796 /* Parking_MajstorUITests.swift */,
+				39C87F961F55AED200B5D796 /* Info.plist */,
+			);
+			path = "Parking MajstorUITests";
+			sourceTree = "<group>";
+		};
+		39C87FA21F55B3E000B5D796 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39C87FA51F55B40400B5D796 /* Lokacije.swift */,
+				39C87FB51F55FB4200B5D796 /* Tablica.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		39C87FA31F55B3E600B5D796 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39471BA11F5F012600784782 /* MaterialView.swift */,
+				39C87FA71F55B42000B5D796 /* ParkingCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		39C87FA41F55B3EF00B5D796 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39C87F731F55AED200B5D796 /* ViewController.swift */,
+				39C87FAF1F55F18600B5D796 /* DodavanjeTablicaViewController.swift */,
+				39C87FB11F55F19400B5D796 /* OdabirGradaViewController.swift */,
+				39C87FB31F55F1A200B5D796 /* OdabirTabliceViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		39C87FA91F55B43C00B5D796 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				39C87FAA1F55B44900B5D796 /* csv.swift */,
+				391BE4D41F5703BD00096C28 /* Archive.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		39C87FAC1F55B57100B5D796 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39C87FAD1F55B57E00B5D796 /* parking.csv */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39C87F6D1F55AED200B5D796 /* Parking Majstor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C87F991F55AED200B5D796 /* Build configuration list for PBXNativeTarget "Parking Majstor" */;
+			buildPhases = (
+				39C87F6A1F55AED200B5D796 /* Sources */,
+				39C87F6B1F55AED200B5D796 /* Frameworks */,
+				39C87F6C1F55AED200B5D796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parking Majstor";
+			productName = "Parking Majstor";
+			productReference = 39C87F6E1F55AED200B5D796 /* Parking Majstor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39C87F841F55AED200B5D796 /* Parking MajstorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C87F9C1F55AED200B5D796 /* Build configuration list for PBXNativeTarget "Parking MajstorTests" */;
+			buildPhases = (
+				39C87F811F55AED200B5D796 /* Sources */,
+				39C87F821F55AED200B5D796 /* Frameworks */,
+				39C87F831F55AED200B5D796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C87F871F55AED200B5D796 /* PBXTargetDependency */,
+			);
+			name = "Parking MajstorTests";
+			productName = "Parking MajstorTests";
+			productReference = 39C87F851F55AED200B5D796 /* Parking MajstorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39C87F8F1F55AED200B5D796 /* Parking MajstorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C87F9F1F55AED200B5D796 /* Build configuration list for PBXNativeTarget "Parking MajstorUITests" */;
+			buildPhases = (
+				39C87F8C1F55AED200B5D796 /* Sources */,
+				39C87F8D1F55AED200B5D796 /* Frameworks */,
+				39C87F8E1F55AED200B5D796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C87F921F55AED200B5D796 /* PBXTargetDependency */,
+			);
+			name = "Parking MajstorUITests";
+			productName = "Parking MajstorUITests";
+			productReference = 39C87F901F55AED200B5D796 /* Parking MajstorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39C87F661F55AED200B5D796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Milos Jakovljevic";
+				TargetAttributes = {
+					39C87F6D1F55AED200B5D796 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E34E359AQG;
+						ProvisioningStyle = Automatic;
+					};
+					39C87F841F55AED200B5D796 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8HHVFZBRB4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39C87F6D1F55AED200B5D796;
+					};
+					39C87F8F1F55AED200B5D796 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8HHVFZBRB4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39C87F6D1F55AED200B5D796;
+					};
+				};
+			};
+			buildConfigurationList = 39C87F691F55AED200B5D796 /* Build configuration list for PBXProject "Parking Majstor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39C87F651F55AED200B5D796;
+			productRefGroup = 39C87F6F1F55AED200B5D796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39C87F6D1F55AED200B5D796 /* Parking Majstor */,
+				39C87F841F55AED200B5D796 /* Parking MajstorTests */,
+				39C87F8F1F55AED200B5D796 /* Parking MajstorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39C87F6C1F55AED200B5D796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C87F7F1F55AED200B5D796 /* LaunchScreen.storyboard in Resources */,
+				39C87FAE1F55B57E00B5D796 /* parking.csv in Resources */,
+				39C87F7C1F55AED200B5D796 /* Assets.xcassets in Resources */,
+				39C87F771F55AED200B5D796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C87F831F55AED200B5D796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C87F8E1F55AED200B5D796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C87F6A1F55AED200B5D796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C87FAB1F55B44900B5D796 /* csv.swift in Sources */,
+				39C87FB21F55F19400B5D796 /* OdabirGradaViewController.swift in Sources */,
+				39C87FB41F55F1A200B5D796 /* OdabirTabliceViewController.swift in Sources */,
+				39471BA21F5F012600784782 /* MaterialView.swift in Sources */,
+				39C87FA81F55B42000B5D796 /* ParkingCell.swift in Sources */,
+				39C87FB61F55FB4200B5D796 /* Tablica.swift in Sources */,
+				39C87FB01F55F18600B5D796 /* DodavanjeTablicaViewController.swift in Sources */,
+				39C87F741F55AED200B5D796 /* ViewController.swift in Sources */,
+				39C87F721F55AED200B5D796 /* AppDelegate.swift in Sources */,
+				39C87F7A1F55AED200B5D796 /* Parking_Majstor.xcdatamodeld in Sources */,
+				39C87FA61F55B40400B5D796 /* Lokacije.swift in Sources */,
+				391BE4D51F5703BD00096C28 /* Archive.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C87F811F55AED200B5D796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C87F8A1F55AED200B5D796 /* Parking_MajstorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C87F8C1F55AED200B5D796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C87F951F55AED200B5D796 /* Parking_MajstorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39C87F871F55AED200B5D796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C87F6D1F55AED200B5D796 /* Parking Majstor */;
+			targetProxy = 39C87F861F55AED200B5D796 /* PBXContainerItemProxy */;
+		};
+		39C87F921F55AED200B5D796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C87F6D1F55AED200B5D796 /* Parking Majstor */;
+			targetProxy = 39C87F911F55AED200B5D796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39C87F751F55AED200B5D796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C87F761F55AED200B5D796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39C87F7D1F55AED200B5D796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C87F7E1F55AED200B5D796 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39C87F971F55AED200B5D796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39C87F981F55AED200B5D796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C87F9A1F55AED200B5D796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E34E359AQG;
+				INFOPLIST_FILE = "Parking Majstor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "randyjosh.Parking-Majstor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		39C87F9B1F55AED200B5D796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E34E359AQG;
+				INFOPLIST_FILE = "Parking Majstor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "randyjosh.Parking-Majstor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		39C87F9D1F55AED200B5D796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = "Parking MajstorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "probotzor.Parking-MajstorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parking Majstor.app/Parking Majstor";
+			};
+			name = Debug;
+		};
+		39C87F9E1F55AED200B5D796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = "Parking MajstorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "probotzor.Parking-MajstorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parking Majstor.app/Parking Majstor";
+			};
+			name = Release;
+		};
+		39C87FA01F55AED200B5D796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = "Parking MajstorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "probotzor.Parking-MajstorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Parking Majstor";
+			};
+			name = Debug;
+		};
+		39C87FA11F55AED200B5D796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = "Parking MajstorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "probotzor.Parking-MajstorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Parking Majstor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39C87F691F55AED200B5D796 /* Build configuration list for PBXProject "Parking Majstor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C87F971F55AED200B5D796 /* Debug */,
+				39C87F981F55AED200B5D796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C87F991F55AED200B5D796 /* Build configuration list for PBXNativeTarget "Parking Majstor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C87F9A1F55AED200B5D796 /* Debug */,
+				39C87F9B1F55AED200B5D796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C87F9C1F55AED200B5D796 /* Build configuration list for PBXNativeTarget "Parking MajstorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C87F9D1F55AED200B5D796 /* Debug */,
+				39C87F9E1F55AED200B5D796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C87F9F1F55AED200B5D796 /* Build configuration list for PBXNativeTarget "Parking MajstorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C87FA01F55AED200B5D796 /* Debug */,
+				39C87FA11F55AED200B5D796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39C87F781F55AED200B5D796 /* Parking_Majstor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39C87F791F55AED200B5D796 /* Parking_Majstor.xcdatamodel */,
+			);
+			currentVersion = 39C87F791F55AED200B5D796 /* Parking_Majstor.xcdatamodel */;
+			path = Parking_Majstor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39C87F661F55AED200B5D796 /* Project object */;
+}

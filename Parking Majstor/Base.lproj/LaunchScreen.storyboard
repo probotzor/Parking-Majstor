@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ChalkboardSE.ttc">
+            <string>ChalkboardSE-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="FBS-qu-7K0">
+                                <rect key="frame" x="85" y="170" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Ocu-9x-TZm"/>
+                                    <constraint firstAttribute="width" secondItem="FBS-qu-7K0" secondAttribute="height" multiplier="1:1" id="cx2-Q0-bjK"/>
+                                    <constraint firstAttribute="width" constant="150" id="lbA-CU-1VJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parking Majstor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSt-QT-Ooa">
+                                <rect key="frame" x="64" y="348" width="193" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="GVN-sy-d6W"/>
+                                    <constraint firstAttribute="width" secondItem="hSt-QT-Ooa" secondAttribute="height" multiplier="193:50" id="MuW-Jl-vXQ"/>
+                                    <constraint firstAttribute="width" constant="193" id="g84-Bk-mec"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="26"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12549019607843137" green="0.30196078431372547" blue="0.5607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hSt-QT-Ooa" firstAttribute="top" secondItem="FBS-qu-7K0" secondAttribute="bottom" constant="28" id="1ig-Us-AXp"/>
+                            <constraint firstItem="FBS-qu-7K0" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="150" id="P1P-9q-Jn5"/>
+                            <constraint firstItem="hSt-QT-Ooa" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="48" id="S0c-32-9jh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FBS-qu-7K0" secondAttribute="trailing" constant="69" id="WDC-zv-YUA"/>
+                            <constraint firstItem="FBS-qu-7K0" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="69" id="YEH-Gx-hGP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hSt-QT-Ooa" secondAttribute="trailing" constant="47" id="cl7-61-Vkb"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="hSt-QT-Ooa" secondAttribute="bottom" constant="170" id="jjB-sq-ZUv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="1000" height="1000"/>
+    </resources>
+</document>
